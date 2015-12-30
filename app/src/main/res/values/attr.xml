@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="TitleText" format="string"/>
+    <attr name="TitleTextSize" format="dimension"/>
+    <attr name="TitleTextColor" format="color"/>
+    <attr name="image" format="reference"/>
+    <attr name="imageScaleType">
+        <enum name="fillXY" value="0"/>
+        <enum name="center" value="1"/>
+    </attr>
+    <declare-styleable name="myview1">
+        <attr name="TitleText"/>
+        <attr name="TitleTextSize"/>
+        <attr name="TitleTextColor"/>
+        <attr name="image"/>
+        <attr name="imageScaleType"/>
+    </declare-styleable>
+    <attr name="firstcolor" format="color"/>
+    <attr name="twocolor" format="color"/>
+    <attr name="circlewidth" format="dimension"/>
+    <attr name="speed" format="integer"/>
+    <declare-styleable name="myview2">
+        <attr name="firstcolor"/>
+        <attr name="twocolor"/>
+        <attr name="circlewidth"/>
+        <attr name="speed"/>
+    </declare-styleable>
+    <attr name="dotCount" format="integer" />
+    <attr name="splitSize" format="integer" />
+    <attr name="bg" format="reference"></attr>
+    <declare-styleable name="myview3">
+        <attr name="firstcolor"/>
+        <attr name="twocolor"/>
+        <attr name="circlewidth"/>
+        <attr name="dotCount" />
+        <attr name="splitSize" />
+        <attr name="bg" />
+    </declare-styleable>
+    <attr name="bround" format="color"/>
+    <attr name="sround" format="color"/>
+    <attr name="bwidth" format="integer"/>
+    <attr name="textcolor" format="color"/>
+    <attr name="textsize" format="dimension"/>
+    <declare-styleable name="myview4">
+        <attr name="bround"/>
+        <attr name="sround"/>
+        <attr name="bwidth"/>
+        <attr name="textcolor"/>
+        <attr name="textsize"/>
+    </declare-styleable>
+</resources>
