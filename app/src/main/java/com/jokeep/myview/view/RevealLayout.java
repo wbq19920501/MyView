@@ -3,6 +3,7 @@ package com.jokeep.myview.view;
 import java.util.ArrayList;
 
 
+import android.annotation.TargetApi;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Paint;

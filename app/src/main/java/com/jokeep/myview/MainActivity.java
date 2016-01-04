@@ -10,7 +10,7 @@ import android.widget.Button;
 
 
 public class MainActivity extends ActionBarActivity implements View.OnClickListener{
-    Button btn1,btn2,btn3,btn4,btn5;
+    Button btn1,btn2,btn3,btn4,btn5,btn6;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,6 +25,8 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         btn4.setOnClickListener(this);
         btn5 = (Button) findViewById(R.id.btn5);
         btn5.setOnClickListener(this);
+        btn6 = (Button) findViewById(R.id.btn6);
+        btn6.setOnClickListener(this);
     }
 
     @Override
@@ -67,6 +69,9 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
                 break;
             case R.id.btn5:
                 intent = new Intent(MainActivity.this,MyView5Activity.class);
+                break;
+            case R.id.btn6:
+                intent = new Intent(MainActivity.this,MyView6Activity.class);
                 break;
         }
         startActivity(intent);
