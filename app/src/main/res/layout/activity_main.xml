@@ -36,5 +36,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="自定义六"/>
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="自定义七"/>
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="自定义八"/>
     </LinearLayout>
 </ScrollView>
