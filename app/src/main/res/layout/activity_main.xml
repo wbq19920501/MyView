@@ -46,5 +46,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="自定义八"/>
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="自定义九"/>
     </LinearLayout>
 </ScrollView>
