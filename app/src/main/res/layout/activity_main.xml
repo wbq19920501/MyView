@@ -51,5 +51,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="自定义九"/>
+        <Button
+            android:id="@+id/btn10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="自定义十"/>
     </LinearLayout>
 </ScrollView>
